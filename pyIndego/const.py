@@ -15,7 +15,7 @@ class Methods(Enum):
     HEAD = "HEAD"
 
 
-DEFAULT_URL = "https://api.indego-cloud.iot.bosch-si.com/api/v1/"
+DEFAULT_URL = "https://api.miimo.honda.co.uk/api/v1/"
 CONTENT_TYPE_JSON = "application/json"
 CONTENT_TYPE = "Content-Type"
 COMMANDS = ("mow", "pause", "returnToDock")
@@ -193,6 +193,7 @@ MOWER_MODEL_DESCRIPTION = {
     "3600HB0302": "Indego S+ 500",
     "3600HB0301": "Indego M+ 700 1gen",
     "3600HB0303": "Indego M+ 700 2gen",
+    "3600HB0600": "Honda Miimo HRM 40 Live",
 }
 
 MOWING_MODE_DESCRIPTION = {
